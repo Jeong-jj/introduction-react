@@ -1,0 +1,78 @@
+#header {
+  width: 100%;
+  background-color: #fff;
+  z-index: 999999;
+  /* border-bottom: 2px solid #999; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+}
+
+/* Contact Me */
+#header .contact {
+  width: 30%;
+  padding-left: 50px;
+}
+#header .contact .iconBox {
+  display: inline-block;  /* 자식너비에 부모 맞추기용 */
+  color: rgb(106, 106, 106);
+  cursor: pointer;
+}
+#header .contact .iconBox:hover {
+  color: #000;
+  border-bottom: 1px solid #000;
+}
+#header .contact .iconBox .sendMail {
+  font-size: 35px;
+  margin-right: 10px;
+}
+#header .contact .iconBox a {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Main title */
+#header .tit {
+  width: 30%;
+  font-size: 40px;
+  font-family: 'Comforter', cursive;
+  text-align: center;
+
+  cursor: default
+}
+@keyframes bigger {
+  0% {transform: scale(1.0);}
+  50% {transform: scale(1.2);}
+  100% {transform: scale(1.0);}
+}
+#header .tit:hover {
+  animation: bigger;
+  animation-duration: 1s;
+}
+
+/* SNS group */
+#header .snsGroup {
+  width: 30%;
+  padding-right: 50px;
+
+  display: flex;
+  justify-content:flex-end;
+
+  color: rgb(106, 106, 106);
+}
+#header .snsGroup li {
+  padding: 5px;
+
+  font-size: 35px;
+  font-weight: bold;
+}
+#header .snsGroup li .sns {
+  padding-bottom: 5px;
+}
+#header .snsGroup li .sns:hover {
+  color: #000;
+  border-bottom: 1px solid #000;
+  cursor: pointer;
+}
+#header .snsGroup li+li {margin-left: 20px;}

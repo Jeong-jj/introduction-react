@@ -1,0 +1,81 @@
+#port_section {
+  padding: 30px 150px 20px;
+  position: relative;
+}
+
+/* Slide Outer Box CSS */
+#port_section .swiper {
+  padding: 70px 15px;
+  border: 1px dashed #999;
+  border-radius: 15px;
+
+  position: relative;
+}
+
+/* Each Slide CSS */
+#port_section .swiper .swiper-slide .slideBox {
+  display: flex;
+  justify-content: space-evenly;
+
+  padding: 0 30px;
+}
+#port_section .swiper .swiper-slide .slideBox > div {
+  width: 48%;
+}
+#port_section .swiper .swiper-slide .slideBox .portImg > img {
+  border: 1px solid #000;
+  border-radius: 15px;
+}
+
+#port_section .swiper .swiper-slide .slideBox .portDesc {
+  padding: 0 20px;
+}
+#port_section .swiper .swiper-slide .slideBox .portDesc h3 {
+  padding-bottom: 15px;
+
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Quintessential', cursive;
+}
+#port_section .swiper .swiper-slide .slideBox .portDesc h4 {
+  padding-bottom: 8px;
+
+  font-weight: bold;
+  font-size: 17px;
+}
+#port_section .swiper .swiper-slide .slideBox .portDesc p {
+  padding-bottom: 5px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* Slide Button */
+#port_section .swiper .swiper-button-prev {
+  color: #000;
+}
+#port_section .swiper .swiper-button-next {
+  color: #000;
+}
+/* Link Button */
+#port_section .swiper .toPort {
+  display: flex;
+  justify-content: center; align-items: center;
+  width: 120px; height: 35px;
+  margin: 20px auto 10px;
+
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 18px;
+  cursor: pointer;
+}
+#port_section .swiper .toPort:hover {
+  background-color: rgb(202, 202, 202);
+  color: #fff;
+}
+#port_section .swiper .toPort span {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bold;
+}
+/* Pagination */
+#port_section .swiper .swiper-pagination {
+  padding-bottom: 20px;
+}
