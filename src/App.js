@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path='/resume' element={<Layout/>}>
+        <Route path='/' element={<Layout/>}>
           <Route index element={<Career/>} />
           <Route path='skills' element={<Skill/>} />
           <Route path='portfolio' element={<Portfolio/>} />
