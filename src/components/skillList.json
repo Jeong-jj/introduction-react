@@ -3,14 +3,21 @@
     "name":"HTML",
     "photo":"images/html_icon.png",
     "desc1":"· 시멘틱 태그를 활용하여 웹 구조 형성이 가능합니다.",
-    "desc2":"· form태그를 활용한 정보 전달이 가능합니다."
+    "desc2":"· form태그를 활용한 정보 전달이 가능합니다.",
+    "desc3": "",
+    "desc4": "",
+    "desc5": "",
+    "desc6": ""
   },
   "css":{
     "name":"CSS",
     "photo":"images/css_icon.png",
     "desc1":"· display, position 등을 이용해 구조 정렬이 가능합니다.",
     "desc2":"· keyframe을 활용한 animation 효과 부여가 가능합니다.",
-    "desc3":"· javascript와의 연계로 조건에 따른 디자인 효과 부여가 가능합니다."
+    "desc3":"· javascript와의 연계로 조건에 따른 디자인 효과 부여가 가능합니다.",
+    "desc4": "",
+    "desc5": "",
+    "desc6": ""
   },
   "js":{
     "name":"JavaScript",
@@ -19,13 +26,18 @@
     "desc2":"· EventListener를 이용하여 웹페이지의 반응 구현이 가능합니다.",
     "desc3":"· 변수와 함수의 선언과정과 호이스팅에 대하여 이해하고 있습니다.",
     "desc4":"· var와 let, const의 scope를 이해하고 있습니다.",
-    "desc5":"· 객체 혹은 배열에서 필요한 메소드를 찾아 적용합니다."
+    "desc5":"· 객체 혹은 배열에서 필요한 메소드를 찾아 적용합니다.",
+    "desc6": ""
   },
   "jquery":{
     "name":"JQuery",
     "photo":"images/jquery_icon.png",
     "desc1":"· jQuery의 selector를 이용하여 작성이 가능합니다.",
-    "desc2":"· css와 class 등의 추가 및 제거 메소드의 활용이 가능합니다."
+    "desc2":"· css와 class 등의 추가 및 제거 메소드의 활용이 가능합니다.",
+    "desc3": "",
+    "desc4": "",
+    "desc5": "",
+    "desc6": ""
   },
   "react":{
     "name":"React.JS",
@@ -40,6 +52,11 @@
   "git":{
     "name":"Git",
     "photo":"images/git_icon.png",
-    "desc1":"· 명령어를 통해 프로젝트를 배포하는 것이 가능합니다."
+    "desc1":"· 명령어를 통해 프로젝트를 배포하는 것이 가능합니다.",
+    "desc2": "",
+    "desc3": "",
+    "desc4": "",
+    "desc5": "",
+    "desc6": ""
   }
 }
