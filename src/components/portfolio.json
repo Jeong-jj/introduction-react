@@ -20,7 +20,7 @@
   "portfolio3": {
     "title": "Jordan Promotion",
     "language": "HTML/CSS/JQuery",
-    "photo": "images/port_jordan.png",
+    "photo": "images/port_jordan.jpg",
     "desc1": "Michael Jordan과 Nike가 콜라보한 첫번째 작품인 Jordan series1에 대해 소개하는 사이트입니다.",
     "desc2": "메인 페이지와 Jordan#1의 디자인을 간단하게 slick-slide로 보여주는 페이지, 그리고 Michael Jordan에 대해 간락히 소개하는 페이지로 구성하였습니다.",
     "desc3": "",
@@ -29,7 +29,7 @@
   "portfolio4": {
     "title": "Seoul Children's Park",
     "language": "HTML/CSS/JQuery + open API",
-    "photo": "images/port_seoulPark.png",
+    "photo": "images/port_seoulPark.jpg",
     "desc1": "팀프로젝트로 진행하여 서울어린이대공원 사이트를 다른 디자인으로 간단히 구성해보았습니다.",
     "desc2": "첫번째 페이지에서는 간단한 대공원 정보를 보여주고, 스크롤시 섹션을 이동하도록 하였습니다. 그리고 두번째 페이지는 openAPI를 이용해 지역별 미세먼지를 나타내는 페이지가 구성되었습니다.",
     "desc3": "",
@@ -38,7 +38,7 @@
   "portfolio5": {
     "title": "Stubhub renewal",
     "language": "Node.JS",
-    "photo": "images/port_stubhub.png",
+    "photo": "images/port_stubhub.jpg",
     "desc1": "Stubhub라는 티켓예매사이트를 Renewal해보았습니다.",
     "desc2": "뉴스나 기타정보를 나타내는 섹션을 만든 뒤 티켓정보도 구분지어보려고 하였고, 그리고 스크롤시 특정 지점부터 사이트 리모콘이 나타나도록 하였습니다.",
     "desc3": "그리고 회원가입과 로그인 페이지에서 정규표현식에 따라 진행되도록 하였습니다.",
