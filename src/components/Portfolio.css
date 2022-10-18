@@ -2,6 +2,13 @@
   padding: 30px 150px 20px;
   position: relative;
 }
+#port_section .port-tit {
+  font-family: 'Quintessential', cursive;
+  font-size: 30px;
+  text-align: center;
+  
+  padding-bottom: 30px;
+}
 
 /* Slide Outer Box CSS */
 #port_section .swiper {
@@ -44,8 +51,14 @@
   font-size: 17px;
 }
 #port_section .swiper .swiper-slide .slideBox .portDesc p {
-  padding-bottom: 5px;
   font-family: 'Noto Sans KR', sans-serif;
+  padding-bottom: 5px;
+}
+#port_section .swiper .swiper-slide .slideBox .portDesc .descBox {
+  padding-top: 10px;
+}
+#port_section .swiper .swiper-slide .slideBox .portDesc .descBox p:nth-child(1) {
+  text-indent: 10px;
 }
 
 /* Slide Button */

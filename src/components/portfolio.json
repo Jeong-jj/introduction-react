@@ -3,7 +3,7 @@
     "title": "Netflix with React",
     "language": "React.JS",
     "photo": "images/port_netflix_react.jpg",
-    "desc1": "ReactJS와 TMDB API를 이용하여 Netflix홈페이지를 구성해보았습니다.",
+    "desc1": "ReactJS와 TMDB API를 이용하여 Netflix홈페이지를 구성했습니다.",
     "desc2": "메인 배너에서는 play버튼 클릭시 해당 영화의 예고편이 나오도록 하였고, 특정 영화를 클릭했을 시 정보를 가져와 Modal창이 띄워지도록 하였습니다.",
     "desc3": "그리고 검색창 기능을 통해 검색 내용에 일치하는 영화의 이미지들이 나타나도록 하였습니다.",
     "url": "https://jeong-jj.github.io/react-netflix-clone/"
@@ -13,7 +13,7 @@
     "language": "React.JS",
     "photo": "images/port_todoList_react.jpg",
     "desc1": "React를 이용해 Todo List를 제작하였습니다.",
-    "desc2": "hooks를 이용하여 input의 입력값을 받아 할 일을 입력할수 있게 하였고, 수정 및 삭제 기능 및 전체 삭제 기능을 구현했습니다.",
+    "desc2": "hooks를 이용하여 input의 입력값을 받아 할 일을 입력할 수 있게 하였고, 수정 및 삭제 기능과 전체 삭제 기능을 구현했습니다.",
     "desc3": "또한 Drag N Drop 모듈로 리스트를 옮길 수 있게 만들었으며, 결과는 localStorage에 저장되도록 하였습니다.",
     "url": "https://jeong-jj.github.io/react-todo/"
   },

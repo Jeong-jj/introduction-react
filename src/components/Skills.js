@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
-import './Skill.css';
+import './Skills.css';
 import skillList from './skillList.json';
 
-const Skill = () => {
+const Skills = () => {
 
   const tabList = [
     {id:0, category: skillList.html},
@@ -21,7 +21,7 @@ const Skill = () => {
 
   return (
     <section id='skill_section'>
-      <h1>계속해서 배우고, 익히며, 기록합니다.. 📝</h1>
+      <h1 className='skill-tit'>Continuously Learning and Recording</h1>
       <div className='skill_block'>
         <div className='skills'>
           {tabList.map( data => (
@@ -52,4 +52,4 @@ const Skill = () => {
   );
 };
 
-export default Skill;
+export default Skills;

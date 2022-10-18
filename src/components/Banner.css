@@ -56,9 +56,10 @@
   font-weight: bold;
   font-size: 28px;
 
-  padding-bottom: 23px;
+  padding-bottom: 15px;
 }
 #banner .myCard .aboutMe .desc .articleTop .birth span {
+  font-size: 18px;
   padding-left: 8px;
 }
 
@@ -66,12 +67,14 @@
   padding-top: 20px;
 }
 #banner .myCard .aboutMe .desc .articleBottom p {
+  font-family: 'Noto Sans KR', sans-serif;
   padding-bottom: 5px;
 }
 #banner .myCard .aboutMe .desc .articleBottom p:nth-child(1) {
   padding-bottom: 15px;
 }
   #banner .myCard .aboutMe .desc .articleBottom p:nth-child(1) strong {
+  font-size: 18px;
   padding: 0 8px;
 }
 

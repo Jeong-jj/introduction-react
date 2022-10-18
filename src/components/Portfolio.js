@@ -27,6 +27,8 @@ const Portfolio = () => {
 
   return (
     <section id='port_section'>
+      <h1 className='port-tit'>This is what I made</h1>
+
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         loop={true}
@@ -46,9 +48,11 @@ const Portfolio = () => {
                   <h3>{data.category.title}</h3>
                   <h4>✍ 언어 : {data.category.language}</h4>
                   <h4>✍ 설명</h4>
-                  <p>{data.category.desc1}</p>
-                  <p>{data.category.desc2}</p>
-                  <p>{data.category.desc3}</p>
+                  <div className='descBox'>
+                    <p>{data.category.desc1}</p>
+                    <p>{data.category.desc2}</p>
+                    <p>{data.category.desc3}</p>
+                  </div>
                 </div>
               </div>
 

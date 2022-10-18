@@ -32,8 +32,8 @@ const Banner = () => {
                 <strong>행동한 뒤에 남은 후회는 하지 않았을 때의 후회보다 가치있다.</strong>
                 <FontAwesomeIcon icon={faQuoteRight} />
               </p>
-              <p>도전하는 것을 좋아하는 프로그래머</p>
-              <p>맡은 일엔 끝까지 책임을 다하는 프로그래머</p>
+              <p>' 왜 그럴까? '를 고민하는 프로그래머</p>
+              <p>배우는 것을 두려워 하지 않는 프로그래머</p>
             </div>
           </div>
         </div>

@@ -37,7 +37,7 @@ const Career = () => {
 
         <div className='intro-tit'>
           <FontAwesomeIcon icon={faQuoteLeft} className='quoteIcon' />
-          <h3>세포에 IT로, 호기심 많은 Developer</h3>
+          <h3>세포에서 IT로, 호기심 많은 Developer</h3>
           <FontAwesomeIcon icon={faQuoteRight} className='quoteIcon' />
         </div>
 

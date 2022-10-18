@@ -9,6 +9,7 @@ const Nav = () => {
         <li><Link to={'/'} className='navLink'>History</Link></li>
         <li><Link to={'/skills'} className='navLink'>Skills</Link></li>
         <li><Link to={'/portfolio'} className='navLink'>Portfolio</Link></li>
+        <li><Link to={'/practice'} className='navLink'>Practice</Link></li>
       </ul>
     </div>
   );
