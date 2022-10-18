@@ -12,7 +12,7 @@
   font-weight: bold;
 }
 #career .history .depth1 > li {
-  font-size: 30px;
+  font-size: 32px;
   font-weight: bold;
   font-family: 'Quintessential', cursive;
 
@@ -36,10 +36,27 @@
   width: 55%;
 }
 #career .introduce h2 {
-  font-size: 30px;
+  font-size: 32px;
   font-weight: bold;
   font-family: 'Quintessential', cursive;
 }
+#career .introduce .intro-tit {
+  text-align: center;
+}
+#career .introduce .intro-tit .quoteIcon {
+  font-size: 22px;
+}
+#career .introduce .intro-tit h3 {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 22px;
+
+  display: inline-block;
+  padding: 10px 10px 6px;
+}
 #career .introduce p {
-  padding: 20px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 20px;
+  text-indent: 10px;
+
+  padding: 10px 5px 5px;
 }

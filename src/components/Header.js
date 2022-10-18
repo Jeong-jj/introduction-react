@@ -2,6 +2,7 @@ import { faGithub, faInstagram, faVimeo } from '@fortawesome/free-brands-svg-ico
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => {
@@ -15,7 +16,7 @@ const Header = () => {
         </p>
       </div>
 
-      <h1 className='tit'>Daily Portfolio</h1>
+      <h1 className='tit'><Link to={'/'}>Daily Portfolio</Link></h1>
 
       <ul className='snsGroup'>
         <li>
