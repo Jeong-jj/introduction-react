@@ -20,12 +20,12 @@ const Career = () => {
           <li>Graduation
             <ul className='depth2'>
               <li>
-                <p>🎓 가천대학교 생명과학과: </p>
+                <p>🎓 가천대학교 생명과학과</p>
                 <p>- 2014.03 ~ 2021.02 <span>졸업</span></p>
               </li>
 
               <li>
-                <p>🎓 수성고등학교: </p>
+                <p>🎓 수성고등학교</p>
                 <p>- 2011.03 ~ 2014.02 <span>졸업</span></p>
               </li>
             </ul>
