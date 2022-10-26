@@ -9,26 +9,48 @@
 }
 
 /* Contact Me */
-#header .contact {
+#header .contactBox {
   width: 30%;
   padding-left: 50px;
+
+  display: flex;
+  align-items: center;
 }
-#header .contact .iconBox {
+
+#header .contactBox .contact {
+  margin-left: 15px;
+}
+#header .contactBox .contact .iconBox {
   display: inline-block;  /* 자식너비에 부모 맞추기용 */
   color: rgb(106, 106, 106);
   cursor: pointer;
 }
-#header .contact .iconBox:hover {
+#header .contactBox .contact .iconBox:hover {
   color: #000;
   border-bottom: 1px solid #000;
 }
-#header .contact .iconBox .sendMail {
+#header .contactBox .contact .iconBox .sendMail {
   font-size: 35px;
   margin-right: 10px;
 }
-#header .contact .iconBox a {
+#header .contactBox .contact .iconBox a {
   font-size: 20px;
   font-weight: bold;
+}
+
+#header .contactBox .pastHome {
+  font-size: 26px;
+  color: rgb(106, 106, 106);
+  cursor: pointer;
+
+  animation: changeOpacity;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes changeOpacity {
+  0% {opacity: 0.4;}
+  50% {opacity: 0.2;}
+  100% {opacity: 0.4;}
 }
 
 /* Main title */

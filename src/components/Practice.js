@@ -7,7 +7,10 @@ const Practice = () => {
     <section id='git-calendar'>
       <h1 className='practice-tit'>More harder, More greener</h1>
 
-      <GitHubCalendar username='jeong-jj' blockSize={16} />
+      <GitHubCalendar
+        username='jeong-jj'
+        blockSize={16}
+      />
     </section>
   );
 };
