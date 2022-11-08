@@ -1,6 +1,6 @@
 import { faGithub, faInstagram, faVimeo } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
-import { faRotateLeft } from '@fortawesome/free-solid-svg-icons';
+// import { faRotateLeft } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Link } from 'react-router-dom';
@@ -11,13 +11,13 @@ const Header = () => {
   return (
     <header id='header'>
       <div className='contactBox'>
-        <div className='pastHome'>
+        {/* <div className='pastHome'>
             <FontAwesomeIcon
               icon={faRotateLeft}
               title="과거 사이트"
               onClick={()=>{window.open('https://jeong-jj.github.io/introduction_update/')}}
             />
-        </div>
+        </div> */}
 
         <div className='contact'>
           <p className='iconBox'>

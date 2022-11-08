@@ -20,7 +20,6 @@
 #skill_section .skill_block .skills {
   display: flex;
   flex-wrap: wrap;
-
 }
 #skill_section .skill_block .skills div {
   flex: 1 1 28%;
