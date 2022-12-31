@@ -1,18 +1,16 @@
-import React from 'react';
-import './Footer.css';
+import React from "react";
+import "./Footer.css";
 
-const Footer = () => {
+export const Footer = () => {
   return (
-    <footer id='footer'>
-      <div className='rights'>
+    <footer id="footer">
+      <div className="rights">
         <span>copyright &copy; JeongJun All Rights Reserved.</span>
       </div>
-      
-      <div className='tool'>
+
+      <div className="tool">
         <span>This website created using create-react-app</span>
       </div>
     </footer>
   );
 };
-
-export default Footer;

@@ -10,7 +10,8 @@
 #banner .myCard .picFrame {
   position: relative;
 
-  width: 520px; height: 520px;
+  width: 520px;
+  height: 520px;
   padding: 0 100px;
   border: 1px solid #000;
   border-radius: 50%;
@@ -18,10 +19,12 @@
 
 #banner .myCard .myPic {
   position: absolute;
-  top: 50%; left: 50%;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
 
-  width: 490px; height: 490px;
+  width: 490px;
+  height: 490px;
   border-radius: 50%;
 
   background-image: url(../../../public/images/jeong.jpg);
@@ -35,7 +38,7 @@
   padding-right: 80px;
 }
 #banner .myCard .aboutMe .title {
-  font-family: 'Rowdies', cursive;
+  font-family: "Rowdies", cursive;
   font-size: 55px;
   text-align: right;
 
@@ -43,7 +46,7 @@
 }
 #banner .myCard .aboutMe .title p:nth-child(3) {
   font-size: 35px;
-  font-family: 'Quintessential', cursive;
+  font-family: "Quintessential", cursive;
 
   padding-top: 15px;
 }
@@ -67,14 +70,13 @@
   padding-top: 20px;
 }
 #banner .myCard .aboutMe .desc .articleBottom p {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   padding-bottom: 5px;
 }
 #banner .myCard .aboutMe .desc .articleBottom p:nth-child(1) {
   padding-bottom: 15px;
 }
-  #banner .myCard .aboutMe .desc .articleBottom p:nth-child(1) strong {
+#banner .myCard .aboutMe .desc .articleBottom p:nth-child(1) strong {
   font-size: 18px;
   padding: 0 8px;
 }
-
