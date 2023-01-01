@@ -1,5 +1,5 @@
 import React from "react";
-import product from "./portfolio.json";
+import product from "../../data/portfolio.json";
 import "./Portfolio.css";
 
 // import Swiper core and required modules
