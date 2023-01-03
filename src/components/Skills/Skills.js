@@ -1,16 +1,9 @@
 import React, { useState } from "react";
-import skillList from "../../data/skills.json";
+import data from "../../data/skills.json";
 import "./Skills.css";
 
 export const Skills = () => {
-  const tabList = [
-    { id: 0, category: skillList.html },
-    { id: 1, category: skillList.css },
-    { id: 2, category: skillList.js },
-    { id: 3, category: skillList.jquery },
-    { id: 4, category: skillList.react },
-    { id: 5, category: skillList.git },
-  ];
+  const skills = data.skills;
 
   const [active, setActive] = useState(0);
 
@@ -20,30 +13,27 @@ export const Skills = () => {
 
   return (
     <section id="skill_section">
-      <h1 className="skill-tit">Continuously Learning and Recording</h1>
+      <h1 className="skill_tit">Continuously Learning and Recording</h1>
       <div className="skill_block">
         <div className="skills">
-          {tabList.map((data) => (
+          {skills.map((data) => (
             <div
               key={data.id}
-              className={data.category.name}
+              className={data.name}
               onClick={() => handleClick(data.id)}
             >
-              <img src={data.category.photo} alt={data.category.name} />
+              <img src={data.photo} alt={data.name} />
             </div>
           ))}
         </div>
 
         <div className="skill_desc">
-          <h2>{tabList[active].category.name}</h2>
+          <h2>{skills[active].name}</h2>
 
-          <div className="descBlock">
-            <p>{tabList[active].category.desc1}</p>
-            <p>{tabList[active].category.desc2}</p>
-            <p>{tabList[active].category.desc3}</p>
-            <p>{tabList[active].category.desc4}</p>
-            <p>{tabList[active].category.desc5}</p>
-            <p>{tabList[active].category.desc6}</p>
+          <div className="desc_block">
+            {skills[active].desc.map((data) => (
+              <p>{data}</p>
+            ))}
           </div>
         </div>
       </div>

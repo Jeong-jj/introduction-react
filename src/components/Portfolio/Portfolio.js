@@ -1,5 +1,5 @@
 import React from "react";
-import product from "../../data/portfolio.json";
+import data from "../../data/portfolio.json";
 import "./Portfolio.css";
 
 // import Swiper core and required modules
@@ -12,15 +12,9 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
 export const Portfolio = () => {
-  const portList = [
-    { id: 0, category: product.portfolio1 },
-    { id: 1, category: product.portfolio2 },
-    { id: 2, category: product.portfolio3 },
-    { id: 3, category: product.portfolio4 },
-    { id: 4, category: product.portfolio5 },
-  ];
+  const portfolio = data.portfolio;
 
-  const handleNoUrl = () => {
+  const NoUrl = () => {
     alert(
       "해당 프로젝트의 링크는 준비중입니다.\n빠른 시일 내에 준비하도록 하겠습니다, 죄송합니다."
     );
@@ -36,21 +30,21 @@ export const Portfolio = () => {
         navigation
         pagination={{ clickable: true }}
       >
-        {portList.map((data) => (
+        {portfolio.map((data) => (
           <SwiperSlide key={data.id}>
             <div className="slideBox">
               <div className="portImg">
-                <img src={data.category.photo} alt={data.category.title} />
+                <img src={data.photo} alt={data.title} />
               </div>
 
               <div className="portDesc">
-                <h3>{data.category.title}</h3>
-                <h4>✍ 언어 : {data.category.language}</h4>
+                <h3>{data.title}</h3>
+                <h4>✍ 언어 : {data.language}</h4>
                 <h4>✍ 설명</h4>
                 <div className="descBox">
-                  <p>{data.category.desc1}</p>
-                  <p>{data.category.desc2}</p>
-                  <p>{data.category.desc3}</p>
+                  {data.desc.map((data) => (
+                    <p>{data}</p>
+                  ))}
                 </div>
               </div>
             </div>
@@ -58,11 +52,11 @@ export const Portfolio = () => {
             <div
               className="toPort"
               onClick={
-                data.category.url
+                data.url
                   ? () => {
-                      window.open(data.category.url);
+                      window.open(data.url);
                     }
-                  : () => handleNoUrl()
+                  : () => NoUrl()
               }
             >
               <span>이동하기</span>

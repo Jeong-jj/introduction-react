@@ -1,8 +1,8 @@
 #skill_section {
   padding: 30px 150px 20px;
 }
-#skill_section .skill-tit {
-  font-family: 'Quintessential', cursive;
+#skill_section .skill_tit {
+  font-family: "Quintessential", cursive;
   font-size: 30px;
   text-align: center;
 
@@ -39,12 +39,12 @@
 #skill_section .skill_block .skill_desc h2 {
   padding-bottom: 20px;
   font-size: 30px;
-  font-family: 'Rowdies', cursive;
+  font-family: "Rowdies", cursive;
 }
-#skill_section .skill_block .skill_desc .descBlock {
+#skill_section .skill_block .skill_desc .desc_block {
   font-size: 20px;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
 }
-#skill_section .skill_block .skill_desc .descBlock p {
+#skill_section .skill_block .skill_desc .desc_block p {
   padding-bottom: 10px;
 }
