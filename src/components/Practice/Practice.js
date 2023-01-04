@@ -1,13 +1,13 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
-import "./Practice.css";
+import * as S from "./styles";
 
 export const Practice = () => {
   return (
-    <section id="git-calendar">
+    <S.PracticeSection>
       <h1 className="practice-tit">More harder, More greener</h1>
 
       <GitHubCalendar username="jeong-jj" blockSize={16} />
-    </section>
+    </S.PracticeSection>
   );
 };

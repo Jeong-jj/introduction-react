@@ -1,16 +1,16 @@
 import React from "react";
-import "./Footer.css";
+import * as S from "./styles";
 
 export const Footer = () => {
   return (
-    <footer id="footer">
-      <div className="rights">
+    <S.FooterContainer>
+      <S.Rights>
         <span>copyright &copy; JeongJun All Rights Reserved.</span>
-      </div>
+      </S.Rights>
 
-      <div className="tool">
+      <S.AppTool>
         <span>This website created using create-react-app</span>
-      </div>
-    </footer>
+      </S.AppTool>
+    </S.FooterContainer>
   );
 };

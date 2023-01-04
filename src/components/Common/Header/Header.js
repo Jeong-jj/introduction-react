@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
   faInstagram,
@@ -7,13 +8,12 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 // import { faRotateLeft } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "./Header.css";
+import * as S from "./styles";
 
 export const Header = () => {
   return (
-    <header id="header">
-      <div className="contactBox">
+    <S.HeaderContainer>
+      <S.ContactBox>
         {/* <div className='pastHome'>
             <FontAwesomeIcon
               icon={faRotateLeft}
@@ -22,23 +22,21 @@ export const Header = () => {
             />
         </div> */}
 
-        <div className="contact">
-          <p className="iconBox">
-            <FontAwesomeIcon icon={faEnvelope} className="sendMail" />
-            <a href="mailto:rgfdds98@gamil.com">Contact</a>
-          </p>
-        </div>
-      </div>
+        <S.BtnWrap>
+          <FontAwesomeIcon icon={faEnvelope} className="sendMail" />
+          <a href="mailto:rgfdds98@gamil.com">Contact</a>
+        </S.BtnWrap>
+      </S.ContactBox>
 
-      <h1 className="tit">
+      <S.Title>
         <Link to={"/"}>Daily Portfolio</Link>
-      </h1>
+      </S.Title>
 
-      <ul className="snsGroup">
+      <S.SnsWrap>
         <li>
           <FontAwesomeIcon
             icon={faGithub}
-            className="sns gitLink"
+            className="snsIcon gitLink"
             onClick={() => {
               window.open("https://github.com/Jeong-jj");
             }}
@@ -47,7 +45,7 @@ export const Header = () => {
         <li>
           <FontAwesomeIcon
             icon={faVimeo}
-            className="sns velogLink"
+            className="snsIcon velogLink"
             onClick={() => {
               window.open("https://velog.io/@rgfdds98");
             }}
@@ -56,13 +54,13 @@ export const Header = () => {
         <li>
           <FontAwesomeIcon
             icon={faInstagram}
-            className=" sns instaLink"
+            className="snsIcon instaLink"
             onClick={() => {
               window.open("http://instagram.com/ot.zoa");
             }}
           />
         </li>
-      </ul>
-    </header>
+      </S.SnsWrap>
+    </S.HeaderContainer>
   );
 };

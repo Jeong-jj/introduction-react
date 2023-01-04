@@ -1,6 +1,6 @@
 import React from "react";
 import data from "../../data/portfolio.json";
-import "./Portfolio.css";
+import * as S from "./styles";
 
 // import Swiper core and required modules
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
@@ -21,8 +21,8 @@ export const Portfolio = () => {
   };
 
   return (
-    <section id="port_section">
-      <h1 className="port-tit">This is what I made</h1>
+    <S.SectionContainer>
+      <S.Title>This is what I made</S.Title>
 
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -32,25 +32,23 @@ export const Portfolio = () => {
       >
         {portfolio.map((data) => (
           <SwiperSlide key={data.id}>
-            <div className="slideBox">
-              <div className="portImg">
-                <img src={data.photo} alt={data.title} />
-              </div>
+            <S.SlideWrap>
+              <S.ImgWrap>
+                <img src={data.img} alt={data.title} />
+              </S.ImgWrap>
 
-              <div className="portDesc">
+              <S.DescWrap>
                 <h3>{data.title}</h3>
-                <h4>✍ 언어 : {data.language}</h4>
-                <h4>✍ 설명</h4>
-                <div className="descBox">
-                  {data.desc.map((data) => (
-                    <p>{data}</p>
-                  ))}
-                </div>
-              </div>
-            </div>
+                <p>✍ 언어 : {data.language}</p>
+                <p>✍ 설명</p>
+                <S.DescText>
+                  {data.desc.length > 0 &&
+                    data.desc.map((data) => <p>{data}</p>)}
+                </S.DescText>
+              </S.DescWrap>
+            </S.SlideWrap>
 
-            <div
-              className="toPort"
+            <S.LinkBtn
               onClick={
                 data.url
                   ? () => {
@@ -60,10 +58,10 @@ export const Portfolio = () => {
               }
             >
               <span>이동하기</span>
-            </div>
+            </S.LinkBtn>
           </SwiperSlide>
         ))}
       </Swiper>
-    </section>
+    </S.SectionContainer>
   );
 };

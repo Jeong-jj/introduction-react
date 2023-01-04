@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import data from "../../data/skills.json";
-import "./Skills.css";
+import * as S from "./styles";
 
 export const Skills = () => {
   const skills = data.skills;
@@ -12,31 +12,33 @@ export const Skills = () => {
   };
 
   return (
-    <section id="skill_section">
-      <h1 className="skill_tit">Continuously Learning and Recording</h1>
-      <div className="skill_block">
-        <div className="skills">
+    <S.SectionContainer>
+      <S.Title className="skill_tit">
+        Continuously Learning and Recording
+      </S.Title>
+      <S.ContentsWrap>
+        <S.IconsContainer>
           {skills.map((data) => (
-            <div
+            <S.IconWrap
               key={data.id}
               className={data.name}
               onClick={() => handleClick(data.id)}
             >
               <img src={data.photo} alt={data.name} />
-            </div>
+            </S.IconWrap>
           ))}
-        </div>
+        </S.IconsContainer>
 
-        <div className="skill_desc">
+        <S.DescWrap>
           <h2>{skills[active].name}</h2>
 
-          <div className="desc_block">
+          <S.DescText>
             {skills[active].desc.map((data) => (
               <p>{data}</p>
             ))}
-          </div>
-        </div>
-      </div>
-    </section>
+          </S.DescText>
+        </S.DescWrap>
+      </S.ContentsWrap>
+    </S.SectionContainer>
   );
 };

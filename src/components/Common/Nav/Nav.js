@@ -1,32 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Nav.css";
+import * as S from "./styles";
 
 export const Nav = () => {
   return (
-    <div id="nav">
-      <ul className="depth">
-        <li>
-          <Link to={"/"} className="navLink">
-            History
-          </Link>
-        </li>
-        <li>
-          <Link to={"/skills"} className="navLink">
-            Skills
-          </Link>
-        </li>
-        <li>
-          <Link to={"/portfolio"} className="navLink">
-            Portfolio
-          </Link>
-        </li>
-        <li>
-          <Link to={"/practice"} className="navLink">
-            Practice
-          </Link>
-        </li>
-      </ul>
-    </div>
+    <S.TapsContainer>
+      <S.TapBtn>
+        <Link to={"/"}>History</Link>
+      </S.TapBtn>
+      <S.TapBtn>
+        <Link to={"/skills"}>Skills</Link>
+      </S.TapBtn>
+      <S.TapBtn>
+        <Link to={"/portfolio"}>Portfolio</Link>
+      </S.TapBtn>
+      <S.TapBtn>
+        <Link to={"/practice"}>Practice</Link>
+      </S.TapBtn>
+    </S.TapsContainer>
   );
 };
