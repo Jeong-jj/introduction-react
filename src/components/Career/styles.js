@@ -8,6 +8,7 @@ export const CareerSection = styled.section`
 
 export const HistoryContainer = styled.div`
   width: 45%;
+  padding-right: 20px;
 `;
 
 export const ListWrap = styled.ul`

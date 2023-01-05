@@ -64,7 +64,7 @@ export const MyInfo = styled.div`
     padding-bottom: 15px;
   }
   p:nth-child(2) span {
-    font-size: 18px;
+    font-size: 16px;
     padding-left: 8px;
   }
 `;
