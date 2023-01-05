@@ -6,7 +6,6 @@ import {
   faInstagram,
   faVimeo,
 } from "@fortawesome/free-brands-svg-icons";
-// import { faRotateLeft } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import * as S from "./styles";
 
@@ -14,14 +13,6 @@ export const Header = () => {
   return (
     <S.HeaderContainer>
       <S.ContactBox>
-        {/* <div className='pastHome'>
-            <FontAwesomeIcon
-              icon={faRotateLeft}
-              title="과거 사이트"
-              onClick={()=>{window.open('https://jeong-jj.github.io/introduction_update/')}}
-            />
-        </div> */}
-
         <S.BtnWrap>
           <FontAwesomeIcon icon={faEnvelope} className="sendMail" />
           <a href="mailto:rgfdds98@gamil.com">Contact</a>
