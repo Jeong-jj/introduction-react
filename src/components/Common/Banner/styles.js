@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import myPic from "../../../assets/images/profileImg.jpg";
+import myPic from "../../../assets/images/profile_img.jpg";
 
 export const MyProfile = styled.div`
   padding: 50px 0px;
