@@ -9,6 +9,27 @@ export const Career = () => {
       <S.HistoryContainer>
         <S.ListWrap>
           <li>
+            Activity
+            <S.ListPart>
+              <li>
+                <p>💻 넘블 챌린지 - 지역커뮤니티 앱 만들기</p>
+                <p>
+                  🥈 2등 수상{" "}
+                  <span
+                    className="linkBtn"
+                    onClick={() => {
+                      window.open("https://github.com/sou-so/Souso_Client");
+                    }}
+                  >
+                    Github 보러가기
+                  </span>
+                </p>
+                <p>- 2022.10 ~ 2022.12 제작</p>
+              </li>
+            </S.ListPart>
+          </li>
+
+          <li>
             Education
             <S.ListPart>
               <li>
