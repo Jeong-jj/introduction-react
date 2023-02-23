@@ -24,7 +24,7 @@ const Layout = () => {
 };
 
 function App() {
-  const isPCscreenOrTablet = useMediaQuery({ minDeviceWidth: 1024 });
+  const isPCscreenOrTablet = useMediaQuery({ query: "(min-width:1024px)" });
 
   return (
     <div className="App">
