@@ -2,12 +2,12 @@ import styled from "styled-components";
 
 export const CareerSection = styled.section`
   display: flex;
-  justify-content: space-between;
-  padding: 50px 150px 20px;
+  justify-content: center;
+  padding: 50px 0 20px;
 `;
 
 export const HistoryContainer = styled.div`
-  width: 45%;
+  width: 30%;
   padding-right: 20px;
 `;
 
@@ -20,7 +20,7 @@ export const ListWrap = styled.ul`
     font-weight: bold;
     font-family: "Quintessential", cursive;
 
-    margin-bottom: 30px;
+    margin-bottom: 25px;
   }
 `;
 
@@ -29,18 +29,24 @@ export const ListPart = styled.ul`
   font-family: "Noto Sans KR", sans-serif;
 
   li {
-    margin-left: 20px;
-    padding: 8px 0;
+    margin-left: 15px;
+    padding-top: 8px;
 
-    p:nth-child(2) {
-      padding-top: 5px;
+    p + p {
+      padding: 5px 0 0 10px;
+      font-size: 16px;
       font-weight: 400;
     }
+  }
+
+  .linkBtn {
+    color: #008cff;
+    cursor: pointer;
   }
 `;
 
 export const IntroArticle = styled.div`
-  width: 55%;
+  width: 45%;
 
   h2 {
     font-size: 32px;
