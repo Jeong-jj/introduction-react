@@ -34,7 +34,7 @@ export const Skills = () => {
 
           <S.DescText>
             {skills[active].desc.map((data) => (
-              <p>{data}</p>
+              <p>· {data}</p>
             ))}
           </S.DescText>
         </S.DescWrap>
