@@ -1,12 +1,12 @@
 import React from "react";
 import { Outlet, Route, Routes } from "react-router-dom";
 import { useMediaQuery } from "react-responsive";
+
 import { Header, Banner, Nav, Footer } from "./components/Common";
 import { Career } from "./components/Career/Career";
 import { Skills } from "./components/Skills/Skills";
 import { Portfolio } from "./components/Portfolio/Portfolio";
 import { Practice } from "./components/Practice/Practice";
-import "./App.css";
 import { Incomplete } from "./components/Incomplete/Incomplete";
 
 const Layout = () => {
