@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Noto+Sans+KR:wght@300;400;500;700&family=Quintessential&family=Rowdies:wght@300&display=swap");
+import { createGlobalStyle } from "styled-components";
 
 /*
   font-family: 'Comforter', cursive;
@@ -7,6 +7,7 @@
   font-family: 'Rowdies', cursive;
 */
 
+export const GlobalStyles = createGlobalStyle`
 * {
   margin: 0;
   padding: 0;
@@ -30,3 +31,4 @@ button {
   background-color: #fff;
   border: none;
 }
+`;

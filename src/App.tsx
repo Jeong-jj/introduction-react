@@ -9,8 +9,6 @@ import { Portfolio } from "./components/Portfolio/Portfolio";
 import { Practice } from "./components/Practice/Practice";
 import { Incomplete } from "./components/Incomplete/Incomplete";
 
-import "./App.css";
-
 const Layout = () => {
   return (
     <>
