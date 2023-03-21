@@ -21,12 +21,19 @@ export const ContentsWrap = styled.div`
 `;
 
 export const IconsContainer = styled.div`
+  h2 {
+    padding-top: 20px;
+    font-size: 25px;
+  }
+`;
+
+export const IconsWrap = styled.div`
   display: flex;
   flex-wrap: wrap;
 `;
 
-export const IconWrap = styled.div`
-  flex: 1 1 28%;
+export const Icon = styled.div`
+  flex: 0 1 23%;
   margin: 5px;
   padding: 5px;
   cursor: pointer;
