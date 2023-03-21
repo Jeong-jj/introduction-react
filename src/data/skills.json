@@ -4,7 +4,7 @@
       {
         "id": 0,
         "name": "HTML",
-        "photo": "images/html_icon.png",
+        "photo": "assets/icons/html_icon.png",
         "desc": [
           "시멘틱 태그를 활용하여 웹 구조 형성이 가능합니다.",
           "form태그를 활용한 정보 전달이 가능합니다."
@@ -13,7 +13,7 @@
       {
         "id": 1,
         "name": "CSS",
-        "photo": "images/css_icon.png",
+        "photo": "assets/icons/css_icon.png",
         "desc": [
           "display, position 등을 이용해 구조 정렬이 가능합니다.",
           "keyframe을 활용한 animation 효과 부여가 가능합니다.",
@@ -23,7 +23,7 @@
       {
         "id": 2,
         "name": "JavaScript",
-        "photo": "images/js_icon.png",
+        "photo": "assets/icons/js_icon.png",
         "desc": [
           "조건문과 반복문을 활용한 list작성이 가능합니다.",
           "EventListener를 이용하여 웹페이지의 반응 구현이 가능합니다.",
@@ -35,13 +35,13 @@
       {
         "id": 3,
         "name": "TypeScript",
-        "photo": "images/typescript_icon.png",
+        "photo": "assets/icons/typescript_icon.png",
         "desc": []
       },
       {
         "id": 4,
         "name": "React.JS",
-        "photo": "images/react_icon.png",
+        "photo": "assets/icons/react_icon.png",
         "desc": [
           "component를 나누고 연결하는 것이 가능합니다.",
           "useState와 useEffect에 대해 이해하고 사용합니다.",
@@ -54,7 +54,7 @@
       {
         "id": 5,
         "name": "React Query",
-        "photo": "images/react-query_icon.png",
+        "photo": "assets/icons/react-query_icon.png",
         "desc": [
           "react-query를 통해 REST api를 연결하고 CRUD기능을 구현할 수 있습니다.",
           "useQuery를 사용해 데이터를 get할 수 있습니다.",
@@ -66,7 +66,7 @@
       {
         "id": 6,
         "name": "Git",
-        "photo": "images/git_icon.png",
+        "photo": "assets/icons/git_icon.png",
         "desc": [
           "명령어를 통해 프로젝트를 배포하는 것이 가능합니다.",
           "수정된 파일을 반영하여 commit하고, 배포된 프로젝트에 반영하는 것이 가능합니다.",
@@ -79,13 +79,13 @@
       {
         "id": 0,
         "name": "Recoil.JS",
-        "photo": "images/recoil-js_icon.png",
+        "photo": "assets/icons/recoil-js_icon.png",
         "url": "https://recoiljs.org/ko/"
       },
       {
         "id": 1,
         "name": "Next.JS",
-        "photo": "images/next-js_icon.png",
+        "photo": "assets/icons/next-js_icon.png",
         "url": "https://nextjs.org/"
       }
     ],
@@ -93,7 +93,7 @@
       {
         "id": 0,
         "name": "JQuery",
-        "photo": "images/jquery_icon.png",
+        "photo": "assets/icons/jquery_icon.png",
         "desc": [
           "jQuery의 selector를 이용하여 작성이 가능합니다.",
           "css와 class 등의 추가 및 제거 메소드의 활용이 가능합니다."
