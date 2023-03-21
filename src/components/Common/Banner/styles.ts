@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const myPic = require("../../../assets/images/profile_img.jpg");
+const myPic = require("profile_imgs/profile_img.jpg");
 
 export const MyProfile = styled.div`
   padding: 50px 0px;
