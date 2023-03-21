@@ -78,9 +78,14 @@ export const Career = () => {
             있습니다.
           </p>
           <p>
-            <strong>Vanilla JS</strong>를 활용하기 위해 <strong>ES6+</strong>에
+            <strong>Vanilla JS</strong>를 이해하기 위해 <strong>ES6+</strong>에
             대하여 공부하고 있으며, <strong>React JS</strong>를 이용한
             SPA프로젝트에 관심을 가지고 있습니다.
+          </p>
+          <p>
+            또한 안정적인 개발환경을 만들고, 의도치 않은 프로그램의 실행을 막기
+            위해 <strong>TypeScript</strong>에 대해서 공부하며 타입시스템을
+            도입하려 하고 있습니다.
           </p>
           <p>
             그리고 <strong>" 기억보단 기록이 정확하다. "</strong>란 말에 따라서
