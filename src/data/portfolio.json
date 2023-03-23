@@ -1,62 +1,23 @@
 {
   "portfolio": [
     {
-      "id": 0,
-      "title": "Netflix with React",
-      "language": "React.JS",
-      "img": "assets/images/port_netflix_react.jpg",
-      "desc": [
-        "ReactJS와 TMDB API를 이용하여 Netflix홈페이지를 구성하였고, styled-component를 이용해 css를 적용하였습니다.",
-        "메인 배너에서는 play버튼 클릭시 해당 영화의 예고편이 나오도록 하였고, 특정 영화를 클릭했을 시 정보를 가져와 Modal창이 띄워지도록 하였습니다.",
-        "그리고 검색창 기능을 통해 검색 내용에 일치하는 영화의 이미지들이 나타나도록 하였습니다."
+      "title": "소소 프로젝트",
+      "language": [
+        "React.JS",
+        "JavaScript",
+        "styled-components",
+        "React-Query"
       ],
-      "url": "https://jeong-jj.github.io/react-netflix-clone/"
+      "img": "assets/images/souso-preview.jpg",
+      "desc": [],
+      "url": "https://souso.netlify.app/login"
     },
     {
-      "id": 1,
-      "title": "Todo List",
-      "language": "React.JS",
-      "img": "assets/images/port_todoList_react.jpg",
-      "desc": [
-        "ReactJS를 이용해 Todo List의 기능을 구현하고, Tailwind를 이용해 css를 입혔습니다.",
-        "hooks를 이용하여 input의 입력값을 받아 할 일을 입력할 수 있게 하였고, 수정 및 삭제 기능과 전체 삭제 기능을 구현했습니다.",
-        "또한 Drag N Drop 모듈로 리스트를 옮길 수 있게 만들었으며, 결과는 localStorage에 저장되도록 하였습니다."
-      ],
-      "url": "https://jeong-jj.github.io/react-todo/"
-    },
-    {
-      "id": 2,
-      "title": "Jordan Promotion",
-      "language": "HTML/CSS/JQuery",
-      "img": "assets/images/port_jordan.jpg",
-      "desc": [
-        "Michael Jordan과 Nike가 콜라보한 첫번째 작품인 Jordan series1에 대해 소개하는 사이트입니다.",
-        "메인 페이지와 Jordan#1의 디자인을 간단하게 slick-slide로 보여주는 페이지, 그리고 Michael Jordan에 대해 간락히 소개하는 페이지로 구성하였습니다."
-      ],
-      "url": "https://jeong-jj.github.io/jordan_series1/nike.html"
-    },
-    {
-      "id": 3,
-      "title": "Seoul Children's Park",
-      "language": "HTML/CSS/JQuery + open API",
-      "img": "assets/images/port_seoulPark.jpg",
-      "desc": [
-        "팀프로젝트로 진행하여 서울어린이대공원 사이트를 다른 디자인으로 간단히 구성해보았습니다.",
-        "첫번째 페이지에서는 간단한 대공원 정보를 보여주고, 스크롤시 섹션을 이동하도록 하였습니다. 그리고 두번째 페이지는 openAPI를 이용해 지역별 미세먼지를 나타내는 페이지가 구성되었습니다."
-      ],
-      "url": "https://jeong-jj.github.io/seoul_childrenpark/"
-    },
-    {
-      "id": 4,
-      "title": "Stubhub renewal",
-      "language": "Node.JS",
-      "img": "assets/images/port_stubhub.jpg",
-      "desc": [
-        "Stubhub라는 티켓예매사이트를 Renewal해보았습니다.",
-        "뉴스나 기타정보를 나타내는 섹션을 만든 뒤 티켓정보도 구분지어보려고 하였고, 그리고 스크롤시 특정 지점부터 사이트 리모콘이 나타나도록 하였습니다.",
-        "그리고 회원가입과 로그인 페이지에서 정규표현식에 따라 진행되도록 하였습니다."
-      ],
-      "url": ""
+      "title": "Todo List App",
+      "language": ["React.JS", "styled-components", "Axios"],
+      "img": "assets/images/todoApp.jpg",
+      "desc": [],
+      "url": "https://jeong-jj.github.io/wanted-pre-onboarding-frontend/"
     }
   ]
 }
