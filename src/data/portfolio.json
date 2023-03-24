@@ -3,20 +3,39 @@
     {
       "title": "소소 프로젝트",
       "language": [
-        "React.JS",
+        "React",
         "JavaScript",
         "styled-components",
+        "Axios",
         "React-Query"
       ],
       "img": "assets/images/souso-preview.jpg",
-      "desc": [],
+      "github": "https://github.com/sou-so/Souso_Client",
+      "notion": "https://www.notion.so/prose-club/75035d7b26f648719b09d062f94474c3",
+      "desc": [
+        "팀원 구성: 디자이너1 / 프론트엔드2 / 백엔드2",
+        "구현기능: 회원가입 및 탈퇴, 로그인, 게시글 및 댓글 & 답글 작성, 프로필 수정",
+        "React를 이용해 만든 지역기반 커뮤니티 앱",
+        "요구사항에 따른 MVP 기본 기능 구현",
+        "React-Query를 이용하여 REST api 연결",
+        "게시글 작성시 사진 첨부가능 및 미리보기 제공",
+        "답글 작성 중 대상의 닉네임을 UX편의성을 위해 UI로 표시"
+      ],
       "url": "https://souso.netlify.app/login"
     },
     {
       "title": "Todo List App",
-      "language": ["React.JS", "styled-components", "Axios"],
+      "language": ["React", "JavaScript", "styled-components", "Axios"],
       "img": "assets/images/todoApp.jpg",
-      "desc": [],
+      "github": "https://github.com/Jeong-jj/wanted-pre-onboarding-frontend",
+      "notion": "",
+      "desc": [
+        "구현기능: 회원가입, 로그인, 리스트 작성 및 수정, 삭제",
+        "원티드에서 제공한 api 요구사항에 맞춰 axios를 이용해 연결",
+        "interceptor를 이용해 로그인 여부에 따라 header에 authorization부여",
+        "로그인 시 제공되는 token 여부에 따라 기능제한",
+        "가독성을 위해 api코드를 query, endpoint 등으로 분리"
+      ],
       "url": "https://jeong-jj.github.io/wanted-pre-onboarding-frontend/"
     }
   ]
