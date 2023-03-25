@@ -19,28 +19,28 @@ export const Skills = () => {
         <S.IconsContainer>
           <h2>Main Stack</h2>
           <S.IconsWrap>
-            {skills.main.map((data) => (
+            {skills.main.map((data, index) => (
               <S.Icon
-                key={data.id}
+                key={index}
                 className={data.name}
-                onClick={() => handleClick(data.id)}
+                onClick={() => handleClick(index)}
               >
-                <img src={data.photo} alt={data.name} />
+                <img src={data.icon} alt={data.name} />
               </S.Icon>
             ))}
           </S.IconsWrap>
 
           <h2>Now Interest In</h2>
           <S.IconsWrap>
-            {skills.interest.map((data) => (
+            {skills.interest.map((data, index) => (
               <S.Icon
-                key={data.id}
+                key={index}
                 className={data.name}
                 onClick={() => {
                   window.open(data.url);
                 }}
               >
-                <img src={data.photo} alt={data.name} />
+                <img src={data.icon} alt={data.name} />
               </S.Icon>
             ))}
           </S.IconsWrap>
