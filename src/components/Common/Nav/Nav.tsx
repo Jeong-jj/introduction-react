@@ -6,7 +6,7 @@ export const Nav = () => {
   return (
     <S.TapsContainer>
       <S.TapBtn>
-        <Link to={"/"}>History</Link>
+        <Link to={"/"}>Career</Link>
       </S.TapBtn>
       <S.TapBtn>
         <Link to={"/skills"}>Skills</Link>

@@ -59,8 +59,10 @@
           "react-query를 통해 REST api를 연결하고 CRUD기능을 구현할 수 있습니다.",
           "useQuery를 사용해 데이터를 get할 수 있습니다.",
           "useMutation을 이용해 post, put하여 데이터를 업데이트할 수 있습니다.",
+          "커스텀 훅으로 분리하여 효과적으로 코드를 관리합니다.",
           "데이터 업데이트 후 웹에 반영하기 위한 refetch를 실행할 수 있습니다.",
-          "다수의 query string을 넘기는 것이 가능합니다."
+          "다수의 query string을 넘기는 것이 가능합니다.",
+          "휴먼에러를 줄이기 위해 queryKeyFactory를 사용할 수 있습니다."
         ]
       },
       {
